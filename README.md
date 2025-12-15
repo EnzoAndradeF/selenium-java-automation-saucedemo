@@ -27,7 +27,7 @@ src
 │       └── base         # Configurações base (Driver, Setup)
 └── test
     └── java
-        └── test        # Classes de teste
+        └── test         # Classes de teste
               
 ```
 
