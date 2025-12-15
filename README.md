@@ -24,10 +24,11 @@ src
 ├── main
 │   └── java
 │       └── pages        # Page Objects
+│       └── base         # Configurações base (Driver, Setup)
 └── test
     └── java
-        ├── tests        # Classes de teste
-        └── base         # Configurações base (Driver, Setup)
+        └── test        # Classes de teste
+              
 ```
 
 > O projeto segue o padrão **Page Object Model (POM)** para facilitar manutenção, legibilidade e reutilização de código.
