@@ -33,7 +33,7 @@ src
               
 ```
 
-> O projeto segue o padrão **Page Object Model (POM)** para facilitar manutenção, legibilidade e reutilização de código.
+> O projeto segue o padrão **Page Object Model (POM)**.
 
 ---
 
@@ -70,8 +70,6 @@ mvn clean test
 
 ## 📊 Relatórios de Teste (Local)
 
-O projeto utiliza o **Allure Reports** para geração de relatórios visuais de execução dos testes.
-
 ### Gerar relatório
 
 ```bash
@@ -93,8 +91,6 @@ O relatório apresenta:
 
 ## 🔄 Integração Contínua (CI)
 
-O projeto conta com **GitHub Actions** para execução automática dos testes a cada:
-
 * Push
 * Pull Request
 
@@ -103,8 +99,6 @@ O workflow:
 * Faz checkout do código
 * Configura o ambiente Java
 * Executa os testes via Maven
-
-Isso garante que o projeto esteja sempre estável e executável.
 
 ---
 
