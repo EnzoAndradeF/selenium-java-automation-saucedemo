@@ -2,6 +2,8 @@
 
 Projeto de **automação de testes funcionais** da aplicação **SauceDemo**, desenvolvido com foco em **boas práticas de QA**, organização de código e execução automatizada via **CI**.
 
+Os testes são executados automaticamente via **GitHub Actions** a cada push ou pull request.
+
 ---
 
 
@@ -32,6 +34,16 @@ src
 ```
 
 > O projeto segue o padrão **Page Object Model (POM)** para facilitar manutenção, legibilidade e reutilização de código.
+
+---
+
+## ✅ Cenários Automatizados
+
+* Login com usuário válido
+* Login com usuário inválido
+* Adição de produto ao carrinho
+* Fluxo completo de compra
+* Logout do sistema
 
 ---
 
@@ -96,16 +108,6 @@ Isso garante que o projeto esteja sempre estável e executável.
 
 ---
 
-## ✅ Cenários Automatizados
-
-* Login com usuário válido
-* Login com usuário inválido
-* Adição de produto ao carrinho
-* Fluxo completo de compra
-* Logout do sistema
-
----
-
 ## 📌 Observações
 
 * O relatório Allure é utilizado apenas localmente
@@ -113,13 +115,6 @@ Isso garante que o projeto esteja sempre estável e executável.
 
 ---
 
-## 👤 Autor
-
-Enzo Andrade
-
-Foco em automação de testes, qualidade de software e boas práticas
-
----
 
 
 
