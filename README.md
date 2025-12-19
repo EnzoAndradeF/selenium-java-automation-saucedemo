@@ -1,4 +1,4 @@
-# 🧪 Automação de Testes – SauceDemo
+#  Automação de Testes – SauceDemo
 
 Projeto de **automação de testes funcionais** da aplicação **SauceDemo**, desenvolvido com foco em **boas práticas de QA**, organização de código e execução automatizada via **CI**.
 
@@ -7,7 +7,7 @@ Os testes são executados automaticamente via **GitHub Actions** a cada push ou 
 ---
 
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 * **Java 17**
 * **Selenium WebDriver**
@@ -19,7 +19,7 @@ Os testes são executados automaticamente via **GitHub Actions** a cada push ou 
 
 ---
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 src
@@ -37,7 +37,7 @@ src
 
 ---
 
-## ✅ Cenários Automatizados
+##  Cenários Automatizados
 
 * Login com usuário válido
 * Login com usuário inválido
@@ -47,7 +47,7 @@ src
 
 ---
 
-## ▶️ Executando os Testes Localmente
+##  Executando os Testes Localmente
 
 ### Pré-requisitos
 
@@ -68,7 +68,7 @@ cd nome-do-projeto
 mvn clean test
 ```
 
-## 📊 Relatórios de Teste (Local)
+##  Relatórios de Teste (Local)
 
 ### Gerar relatório
 
@@ -89,7 +89,7 @@ O relatório apresenta:
 
 ---
 
-## 🔄 Integração Contínua (CI)
+##  Integração Contínua (CI)
 
 * Push
 * Pull Request
@@ -102,7 +102,7 @@ O workflow:
 
 ---
 
-## 📌 Observações
+##  Observações
 
 * O relatório Allure é utilizado apenas localmente
 * O foco do projeto é **qualidade de código, clareza e boas práticas**, não volume excessivo de testes
